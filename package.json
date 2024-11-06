@@ -1,0 +1,21 @@
+{
+  "name": "express-iiif-zipit",
+  "version": "1.0.0",
+  "description": "Zip handler for IIIF using express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "iiif-zipit"
+  ],
+  "author": "art rhyno",
+  "license": "GNU",
+  "dependencies": {
+    "async": "^3.2.6",
+    "axios": "^1.7.7",
+    "express": "^4.15.0"
+  }
+}
