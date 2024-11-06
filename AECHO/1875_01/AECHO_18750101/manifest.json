@@ -1,0 +1,58 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:Manifest",
+    "@id": "AECHO_18750101/manifest.json",
+    "label": "",
+    "description": "",
+    "logo": "",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@type": "sc:Canvas",
+                    "@id": "AECHO_18750101/1875-01-01-0001/canvas/1",
+                    "label": "Pg. 1",
+                    "width": 4665,
+                    "height": 6359,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "AECHO_18750101/1875-01-01-0001/canvas/1",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "@id": "AECHO_18750101/1875-01-01-0001/full/104,/0/default.jpg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "/zipit/?path=AECHO_18750101/1875-01-01-0001",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "structures": [
+        {
+            "@id": "AECHO_18750101/1875-01-01-0001/ranges/1",
+            "@type": "sc:Range",
+            "label": "Front Page",
+            "canvases": [
+                "AECHO_18750101/1875-01-01-0001/canvas/1"
+            ],
+            "within": ""
+        },
+        {
+            "@id": "AECHO_18750101/1875-01-01-0001/ranges/1",
+            "@type": "sc:Range",
+            "label": "Last Page",
+            "canvases": [
+                "AECHO_18750101/1875-01-01-0001/canvas/1"
+            ],
+            "within": ""
+        }
+    ]
+}
