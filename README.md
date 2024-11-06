@@ -50,9 +50,6 @@ To run this example, clone the reposity and use the regular _npm_ commands:
 npm install
 npm start
 ```
-The _BASE_URL_ variable in _index.js_ defines where the _odw.zip_ archive and 
-the _odw.json_ file is located.
-
 One modification that might be worthwhile is to add caching, which is well 
 supported in Node.js. Note that the _odw.json_ file maps both tiles and image 
 collections called _blocks_, which are used for search results. This can be 
