@@ -54,4 +54,5 @@ One modification that might be worthwhile is to add caching, which is well
 supported in Node.js. Note that the _odw.json_ file maps both tiles and image 
 collections called _blocks_, which are used for search results. This can be 
 ignored for IIIF. There is not a lot of error handling in this setup but hopefully it
-illustrates how the network interactions can work.
+illustrates how the network interactions can work. The ZIP archives used are created with the
+[odwHocrBlockIiif](https://github.com/OurDigitalWorld/odwHocrBlockIiif) python script.
